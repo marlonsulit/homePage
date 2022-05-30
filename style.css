@@ -12,13 +12,14 @@ body{
 }
 
 .main .hero{
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     width: fit-content;
    height: fit-content;
     background-color: rgb(255, 255, 255);
     display: grid;
  
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
     position: absolute;
     left: 0;
     right: 0;
@@ -50,6 +51,7 @@ body{
     height: 1.2rem;
     border-radius: 6px;
     border:solid 1px #cccccc;
+    padding:10px;
 }
 .main .hero .buttons{
     display: flex;
@@ -61,7 +63,7 @@ body{
   
 .main .hero .buttons button{
  width: 100%;
- height:100%;
+ height:45px;
  border:none;
  background-color: brown;
  border-radius: 8px;
